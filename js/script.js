@@ -3,6 +3,7 @@ const foodsList = ["Pasta", "Carne", "Formaggio", "Cereali", "Affetttati", "Gela
 const listContainer = document.querySelector("ol");
 let myList = "";
 
+
 let i = 0;
 while (i < foodsList.length) {
     const food = foodsList[i];
